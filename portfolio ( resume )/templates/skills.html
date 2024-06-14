@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+        .section-title {
+            font-size: 2.5em;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            width: 100px;
+            height: 3px;
+            background: #30cfd0;
+            display: block;
+            margin: 10px auto;
+        }
+        .skill-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+        .skill-item:hover {
+            transform: translateY(-10px);
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #30cfd0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Skills Section -->
+<div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-item">
+        <h3>Python</h3>
+    </div>
+    <div class="skill-item">
+        <h3>SQL</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Pandas</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Numpy</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Matplotlib , Seaborn</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Scikit</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Tensorflow , Keras , Pytorch</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Computer Vision</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Neural Networks</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Reinforcement Learning</h3>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Shreyansh Sahay. All Rights Reserved.</p>
+        <p><a href="#">Back to top</a></p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

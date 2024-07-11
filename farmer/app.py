@@ -24,7 +24,8 @@ def predict():
         trans_data = scaler.transform(user_data)
         prediction = kmeans.predict(trans_data)[0]
         print(prediction)
-        dt = dict(df[df['cluster_12'] == prediction]['label'].value_counts())
+        dt = dict(df[df['cluster_10'] == prediction]['label'].value_counts())
+        return render_template('index.html',dt = dt)
         ls = []
         for k,v in dt.items():
             if v>=70:
